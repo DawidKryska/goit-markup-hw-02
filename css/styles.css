@@ -1,4 +1,5 @@
 /*Header*/
+
 body {
     font-family: "Roboto", sans-serif;
     background: var(--primary-background-color);
@@ -16,7 +17,9 @@ body {
     --tertiary-background-color: #f5f4fa;
     --fourthary-background-color: #2196f3;
 }
+
 /*Main Page*/
+
 .header-primary {
     background: var(--secondary-background-color);
 }
@@ -67,12 +70,8 @@ body {
     color: var(--first-font-color);
 }
 
-.our-team-items {
-}
-
-.our-team-items {
-}
 /*Portfolio*/
+
 .logo-header-first-part {
     color: var(--second-font-color);
     font-family: "Raleway";
@@ -164,6 +163,11 @@ body {
     line-height: 1.71;
     color: var(--primary-background-color);
     opacity: 0.6;
+}
+
+.contact-links-footer a:hover,
+.contact-links-footer a:focus {
+    color: var(--second-font-color);
 }
 
 .footer .logo-header-second-part {
